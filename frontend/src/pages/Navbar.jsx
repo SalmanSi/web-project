@@ -134,7 +134,7 @@ const Navbar = () => {
                                 duration={500}
                                 onClick={homeHandler}
                             >
-                                SHOPCART
+                                Rural Hands
                             </NavLogo>
                         </Typography>
                     </HomeContainer>
@@ -215,7 +215,7 @@ const Navbar = () => {
                             >
                                 <LocalMallIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
 
-                                SHOPCART
+                                Rural Hands
                             </NavLogo>
                         </Typography>
                     </HomeContainer>
