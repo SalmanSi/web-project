@@ -64,7 +64,7 @@ const ShippingPage = ({ handleNext, profile }) => {
     }
 
     if (formData.state.trim() === '') {
-      newErrors.state = 'State is required';
+      newErrors.state = 'Province is required';
     } else {
       newErrors.state = '';
     }
@@ -265,7 +265,7 @@ const ShippingPage = ({ handleNext, profile }) => {
                       />
                       <TextField
                         fullWidth
-                        label="State/Province/Region"
+                        label="Province"
                         value={state}
                         onChange={(event) => setState(event.target.value)}
                         required
@@ -375,7 +375,7 @@ const ShippingPage = ({ handleNext, profile }) => {
                 <TextField
                   id="state"
                   name="state"
-                  label="State/Province/Region"
+                  label="Province"
                   fullWidth
                   variant="standard"
                   value={formData.state}
