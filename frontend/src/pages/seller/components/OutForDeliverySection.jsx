@@ -44,13 +44,6 @@ const OutForDeliverySection = () => {
                 >
                     View Product
                 </BlueButton >
-                {/* <GreenButton
-                    onClick={() => {
-                        console.log("show")
-                    }}
-                >
-                    Show Customers
-                </GreenButton > */}
             </>
         );
     };
