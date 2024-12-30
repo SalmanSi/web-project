@@ -17,7 +17,7 @@ const ShowOrders = () => {
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-          <Tab label="Added To Cart" {...a11yProps(0)} />
+          <Tab label="Total Products to ship" {...a11yProps(0)} />
           <Tab label="Out For Delivery" {...a11yProps(1)} />
           <Tab label="Completed Orders" {...a11yProps(2)} />
           <Tab label="Cancelled Orders" {...a11yProps(3)} />
