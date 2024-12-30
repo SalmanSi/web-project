@@ -53,7 +53,7 @@ const ProductCard = ({ product }) => {
                         </Typography>
                     </Typography>
                     <Typography variant="subtitle1">
-                        ₹{product.price && product.price.cost}
+                        Rs{product.price && product.price.cost}
                     </Typography>
                 </Stack>
             </Stack>

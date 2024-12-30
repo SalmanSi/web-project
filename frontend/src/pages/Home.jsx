@@ -44,7 +44,7 @@ const Home = () => {
         <ProductsMenu dropName="Products" />
       </Container>
       <BannerBox>
-        <Banner />
+        {/* <Banner /> */}
       </BannerBox>
 
       {showNetworkError ? (
@@ -105,6 +105,7 @@ const StyledContainer = styled(Container)`
 const BannerBox = styled(Box)`
   padding: 20px 10px;
   background: #F2F2F2;
+  
 `;
 
 const Component = styled(Box)`

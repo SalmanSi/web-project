@@ -104,19 +104,19 @@ const Cart = ({ setIsCartOpen }) => {
                                         {data.productName}
                                     </Typography>
                                     <Typography variant="subtitle2">
-                                        Original Price: ₹{data.price.mrp}
+                                        Original Price: Rs{data.price.mrp}
                                     </Typography>
                                     <Typography variant="subtitle2">
                                         Discount: {data.price.discountPercent}% Off
                                     </Typography>
                                     <Typography variant="subtitle2">
-                                        Final Price: ₹{data.price.cost}
+                                        Final Price: Rs{data.price.cost}
                                     </Typography>
                                     <Typography variant="subtitle2">
                                         Quantity: {data.quantity}
                                     </Typography>
                                     <Typography variant="subtitle2">
-                                        Total: ₹{data.quantity * data.price.cost}
+                                        Total: Rs{data.quantity * data.price.cost}
                                     </Typography>
                                     <ButtonContainer>
                                         <Button
@@ -160,11 +160,11 @@ const Cart = ({ setIsCartOpen }) => {
                         </Title>
                         <Divider sx={{ my: 1 }} />
                         <DetailsContainer>
-                            Price ({totalQuantity} items) = ₹{totalOGPrice}
+                            Price ({totalQuantity} items) = Rs{totalOGPrice}
                             <br /><br />
-                            Discount = ₹{totalOGPrice - totalNewPrice}
+                            Discount = Rs{totalOGPrice - totalNewPrice}
                             <Divider sx={{ my: 1 }} />
-                            Total Amount = ₹{totalNewPrice}
+                            Total Amount = Rs{totalNewPrice}
                         </DetailsContainer>
                         <Divider sx={{ my: 1, mb: 4 }} />
                         {cartDetails.length > 0 && (
