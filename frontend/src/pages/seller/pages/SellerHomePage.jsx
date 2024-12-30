@@ -28,7 +28,7 @@ const SellerHomePage = () => {
       </Grid>
 
       <Grid item xs={12} lg={6}>
-        <SalesChart type="bar" />
+        <SalesChart Typographye="bar" />
       </Grid>
     </Grid>
   );
