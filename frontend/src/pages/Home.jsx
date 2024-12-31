@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Box, Container, styled } from '@mui/material';
 import Slide from './Slide';
-import Banner from './Banner';
 import { useDispatch, useSelector } from 'react-redux';
 import { getProducts } from '../redux/userHandle';
 import ProductsMenu from './customer/components/ProductsMenu';
@@ -43,9 +42,6 @@ const Home = () => {
         <ProductsMenu dropName="Categories" />
         <ProductsMenu dropName="Products" />
       </Container>
-      <BannerBox>
-        {/* <Banner /> */}
-      </BannerBox>
 
       {showNetworkError ? (
         <StyledContainer>
@@ -102,11 +98,6 @@ const StyledContainer = styled(Container)`
   align-items: center;
 `;
 
-const BannerBox = styled(Box)`
-  padding: 20px 10px;
-  background: #F2F2F2;
-  
-`;
 
 const Component = styled(Box)`
   display: flex;
